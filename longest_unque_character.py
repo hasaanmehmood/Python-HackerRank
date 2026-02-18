@@ -16,4 +16,4 @@ def longest_unique_substring(s: str, k: int) -> str:
 
     return best
 print(longest_unique_substring("abcabcbb", 3))  # Output: "abc"
-print(longest_unique_substring("bbbbb", 2))     # Output: ""
+print(longest_unique_substring("bbbbb", 2))     # Output: " "    
